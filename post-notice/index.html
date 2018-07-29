@@ -5,18 +5,22 @@
 
   <meta charset="UTF-8">
 
-  <title>This Page is Missing (404 error)</title>
+  <title>Post: Notice</title>
 
-  <meta name="description" content="The page you are looking for has gone missing.">
+  <meta name="description" content="A notice displays information that explains nearby content. Often used to call attention to a particular detail.
+
+When using Kramdown {: .notice} can be adde...">
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="canonical" href="https://jacksoncattlemen.com/404.html">
+  <link rel="canonical" href="https://jacksoncattlemen.com/post-notice/">
   <link rel="alternate" type="application/rss+xml" title="Jackson County Alabama Cattlemen's Association" href="https://jacksoncattlemen.com/feed.xml">
 
-  <meta property="og:url" content="https://jacksoncattlemen.com/404.html">
-  <meta property="og:title" content="This Page is Missing (404 error)">
-  <meta property="og:description" content="The page you are looking for has gone missing.">
+  <meta property="og:url" content="https://jacksoncattlemen.com/post-notice/">
+  <meta property="og:title" content="Post: Notice">
+  <meta property="og:description" content="A notice displays information that explains nearby content. Often used to call attention to a particular detail.
+
+When using Kramdown {: .notice} can be adde...">
   <meta property="og:image" content="https://jacksoncattlemen.com/images/default.jpg">
 
   <meta http-equiv="x-dns-prefetch-control" content="on">
@@ -104,17 +108,89 @@
     <div class="content-sidebar-wrap">
 
       <main class="content">
-        <article class="page entry" itemscope itemtype="http://schema.org/CreativeWork">
+        <article class="post entry" itemscope itemtype="http://schema.org/CreativeWork">
 
           <header class="entry-header">
-            <h1 class="entry-title" itemprop="headline">This Page is Missing (404 error)</h1>
+            <h1 class="entry-title" itemprop="headline">Post: Notice</h1>
+            <p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2010-02-05T00:00:00-06:00">February 5, 2010</time></p>
           </header>
 
           <div class="entry-content" itemprop="text">
-            <h1 class="editable">The page you are looking for has gone missing.</h1>
-<p class="editable">It's not your fault. You can probably find what you're looking for by heading back to the <a href="/">homepage</a>. Failing that you could use <a href="https://duckduckgo.com/?q=site%3Ahttps://jacksoncattlemen.com&t=hu&ia=web">DuckDuckGo</a> to search for it.</p>
+            <p>A notice displays information that explains nearby content. Often used to call attention to a particular detail.</p>
+
+<p>When using Kramdown <code class="highlighter-rouge">{: .notice}</code> can be added after a sentence to assign the <code class="highlighter-rouge">.notice</code> to the <code class="highlighter-rouge">&lt;p&gt;&lt;/p&gt;</code> element.</p>
+
+<p class="notice"><strong>Changes in Service:</strong> We just updated our <a href="#">privacy policy</a> here to better service our customers. We recommend reviewing the changes.</p>
+
+<p class="notice--primary"><strong>Primary Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. <a href="#">Praesent libero</a>. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+<p class="notice--info"><strong>Info Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+<p class="notice--warning"><strong>Warning Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Integer nec odio</a>. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+<p class="notice--danger"><strong>Danger Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+<p class="notice--success"><strong>Success Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at <a href="#">nibh elementum</a> imperdiet.</p>
+
+<p>Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with <code class="highlighter-rouge">markdownify</code> is a good way to go.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% capture notice-2 %}
+#### New Site Features
+
+* You can now have cover images on blog pages
+* Drafts will now auto-save while writing
+{% endcapture %}
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>{{ notice-2 | markdownify }}<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<div class="notice">
+  
+<h4 id="new-site-features">New Site Features</h4>
+
+<ul>
+  <li>You can now have cover images on blog pages</li>
+  <li>Drafts will now auto-save while writing</li>
+</ul>
+
+</div>
+
+<p>Or you could skip the capture and stick with straight HTML.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h4&gt;</span>Message<span class="nt">&lt;/h4&gt;</span>
+  <span class="nt">&lt;p&gt;</span>A basic message.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<div class="notice">
+  <h4>Message</h4>
+  <p>A basic message.</p>
+</div>
 
           </div>
+
+          <footer class="entry-footer">
+            <p class="entry-meta">
+  <span class="entry-categories">Filed Under:
+    
+      <a href="/category/post-formats/" rel="category">post formats</a>
+    
+  </span>
+
+
+
+
+  <span class="entry-tags">Tagged With:
+    
+      <a href="/tag/post-formats/" rel="tag">post formats</a>, 
+    
+      <a href="/tag/notice/" rel="tag">notice</a>
+    
+  </span>
+
+</p>
+          </footer>
 
         </article>
       </main>

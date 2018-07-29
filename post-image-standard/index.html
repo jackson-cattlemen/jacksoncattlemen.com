@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+  <meta charset="UTF-8">
+
+  <title>Post: Image (Standard)</title>
+
+  <meta name="description" content="The preferred way of using images is placing them in the /images/ directory and referencing them with an absolute path. Prepending the filename with {{ site....">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="canonical" href="https://jacksoncattlemen.com/post-image-standard/">
+  <link rel="alternate" type="application/rss+xml" title="Jackson County Alabama Cattlemen's Association" href="https://jacksoncattlemen.com/feed.xml">
+
+  <meta property="og:url" content="https://jacksoncattlemen.com/post-image-standard/">
+  <meta property="og:title" content="Post: Image (Standard)">
+  <meta property="og:description" content="The preferred way of using images is placing them in the /images/ directory and referencing them with an absolute path. Prepending the filename with {{ site....">
+  <meta property="og:image" content="https://jacksoncattlemen.com/images/default.jpg">
+
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Martel:200,700,900|Open+Sans:400,700|Roboto+Condensed:700">
+  <link rel="stylesheet" href="/css/main.css">
+
+</head>
+
+
+  <body itemscope itemtype="http://schema.org/WebPage">
+
+    <div class="site-container">
+
+      <header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="wrap">
+
+    
+      <div class="title-area">
+        <h1 class="site-title" itemprop="headline"><a href="/">Jackson County Alabama Cattlemen's Association</a></h1>
+      </div>
+    
+
+    <nav class="nav-primary" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul class="jekyll-nav-menu">
+
+    
+
+      <li class="menu-item">
+        <a href="/">Home</a>
+
+        
+
+      </li>
+
+    
+
+      <li class="menu-item">
+        <a href="/about/">About</a>
+
+        
+        <ul class="sub-menu">
+
+          
+            <li class="menu-item"><a href="/leadership/">Leadership</a></li>
+          
+            <li class="menu-item"><a href="/typography/">Typography Test</a></li>
+          
+
+        </ul>
+        
+
+      </li>
+
+    
+
+      <li class="menu-item">
+        <a href="/events/">Events</a>
+
+        
+
+      </li>
+
+    
+
+      <li class="menu-item">
+        <a href="/news/">News</a>
+
+        
+
+      </li>
+
+    
+
+  </ul>
+</nav>
+
+  </div>
+</header>
+
+
+      <div class="site-inner">
+  <div class="wrap">
+    <div class="content-sidebar-wrap">
+
+      <main class="content">
+        <article class="post entry" itemscope itemtype="http://schema.org/CreativeWork">
+
+          <header class="entry-header">
+            <h1 class="entry-title" itemprop="headline">Post: Image (Standard)</h1>
+            <p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2010-08-05T00:00:00-05:00">August 5, 2010</time></p>
+          </header>
+
+          <div class="entry-content" itemprop="text">
+            <p>The preferred way of using images is placing them in the <code class="highlighter-rouge">/images/</code> directory and referencing them with an absolute path. Prepending the filename with <code class="highlighter-rouge">{{ site.url }}{{ site.baseurl }}/images/</code> will make sure your images display properly in feeds and such.</p>
+
+<p>Standard image with no width modifier classes applied.</p>
+
+<p><strong>HTML:</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.url }}{{ site.baseurl }}/images/filename.jpg"</span> <span class="na">alt=</span><span class="s">""</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p><strong>or Kramdown:</strong></p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt</span><span class="p">](</span><span class="sx">{{</span> site.url }}{{ site.baseurl }}/images/filename.jpg)
+</code></pre></div></div>
+
+<p><img src="https://jacksoncattlemen.com/images/unsplash-image-9.jpg" alt="Unsplash image 9" /></p>
+
+<p>Image that fills page content container by adding the <code class="highlighter-rouge">.full</code> class with:</p>
+
+<p><strong>HTML:</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.url }}{{ site.baseurl }}/images/filename.jpg"</span> <span class="na">alt=</span><span class="s">""</span> <span class="na">class=</span><span class="s">"full"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p><strong>or Kramdown:</strong></p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt</span><span class="p">](</span><span class="sx">{{</span> site.url }}{{ site.baseurl }}/images/filename.jpg)
+{: .full}
+</code></pre></div></div>
+
+<p class="full"><img src="https://jacksoncattlemen.com/images/unsplash-image-10.jpg" alt="Unsplash image 10" /></p>
+
+          </div>
+
+          <footer class="entry-footer">
+            <p class="entry-meta">
+  <span class="entry-categories">Filed Under:
+    
+      <a href="/category/post-formats/" rel="category">post formats</a>
+    
+  </span>
+
+
+
+
+  <span class="entry-tags">Tagged With:
+    
+      <a href="/tag/image/" rel="tag">image</a>, 
+    
+      <a href="/tag/post-formats/" rel="tag">post formats</a>
+    
+  </span>
+
+</p>
+          </footer>
+
+        </article>
+      </main>
+
+      <aside class="sidebar" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+
+  <!-- <section class="widget">
+    <h3 class="widget-title">Layouts</h3>
+    <ul class="menu">
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="/full-width-content/" itemprop="url">Full Width Content</a></li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a href="/sidebar-content/" itemprop="url">Sidebar Content</a></li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item menu-item-237"><a href="/content-sidebar/" itemprop="url">Content Sidebar</a></li>
+    </ul>
+  </section> -->
+
+  <section class="widget">
+    <h3 class="widget-title">Recent News</h3>
+    <ul>
+      <li><a href="/achieving-product-market-fit/">Achieving Product Market Fit</a></li>
+      <li><a href="/understanding-your-customers/">Understanding Your Customers</a></li>
+      <li><a href="/running-a-successful-campaign/">Running a Successful Campaign</a></li>
+      <li><a href="/establishing-a-design-culture/">Establishing a Design Culture</a></li>
+      <li><a href="/hello-world-2/">Making a great first impression</a></li>
+    </ul>
+  </section>
+
+  <section class="widget mobile-hide">
+    <img src="/images/jackson.png" alt="Alabama state map with Jackson county highlight">
+  </section>
+
+  <!-- <section class="widget">
+    <h3 class="widget-title">Archives</h3>
+    <ul>
+      <li><a href="#">February 2016</a></li>
+      <li><a href="#">January 2016</a></li>
+    </ul>
+  </section> -->
+
+</aside>
+
+    </div>
+  </div>
+</div>
+
+      <div class="footer-widgets">
+  <div class="wrap">
+
+    <div class="footer-widget-1">
+      <section class="widget social-icons">
+        <ul>
+
+          <li class="facebook"><a href="#" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+
+          <li class="twitter"><a href="#" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+
+          <li class="google-plus"><a href="#" target="_blank" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+
+          <li class="instagram"><a href="#" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+
+          <li class="youtube"><a href="#" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a></li>
+
+          <li class="vimeo"><a href="#" target="_blank" title="Vimeo"><i class="fa fa-vimeo"></i></a></li>
+
+          <li class="whatsapp"><a href="#" target="_blank" title="WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
+
+          <li class="pinterest"><a href="#" target="_blank" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+
+          <li class="tumblr"><a href="#" target="_blank" title="Tumblr"><i class="fa fa-tumblr"></i></a></li>
+
+          <li class="linkedin"><a href="#" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+
+          <li class="medium"><a href="#" target="_blank" title="Medium"><i class="fa fa-medium"></i></a></li>
+
+          <li class="email"><a href="mailto:info@example.com" target="_blank" title="Email"><i class="fa fa-envelope"></i></a></li>
+
+        </ul>
+      </section>
+    </div>
+
+    <div class="footer-widget-2">
+      <section class="widget editable">
+        <ul class="menu">
+          <li class="menu-item"><a href="/about/" itemprop="url">Full Width Content</a></li>
+          <li class="menu-item"><a href="/post-twitter-embeds/" itemprop="url">Content Sidebar</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="footer-widget-3">
+      <section class="widget editable">
+        <ul class="menu">
+          <li class="menu-item"><a href="/typography/" itemprop="url">Typography</a></li>
+          <li class="menu-item"><a href="/contact/" itemprop="url">Contact</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="footer-widget-4">
+      <section class="widget editable">
+        <ul class="menu">
+          <li class="menu-item"><a href="/about/" itemprop="url">Services</a></li>
+          <li class="menu-item"><a href="/portfolio/" itemprop="url">Portfolio</a></li>
+        </ul>
+      </section>
+    </div>
+
+  </div>
+</div>
+
+      <footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="wrap">
+    <p>Jackson County Alabama Cattlemen's Association &copy; 2018 &middot; Built by <a href="http://bradonomics.com/" rel="nofollow">Brad West</a></p>
+  </div>
+</footer>
+
+
+    </div>
+
+    <script async src='https://jacksoncattlemen.com/js/theme.min.js'></script>
+
+  </body>
+
+</html>

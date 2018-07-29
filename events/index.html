@@ -5,18 +5,32 @@
 
   <meta charset="UTF-8">
 
-  <title>This Page is Missing (404 error)</title>
+  <title>Events</title>
 
-  <meta name="description" content="The page you are looking for has gone missing.">
+  <meta name="description" content="{{ page.title }}
+          {% if page.description %}{{ page.description }}{% endif %}
+        
+
+        {% for item in site.events %}
+          
+
+           ...">
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="canonical" href="https://jacksoncattlemen.com/404.html">
+  <link rel="canonical" href="https://jacksoncattlemen.com/events/">
   <link rel="alternate" type="application/rss+xml" title="Jackson County Alabama Cattlemen's Association" href="https://jacksoncattlemen.com/feed.xml">
 
-  <meta property="og:url" content="https://jacksoncattlemen.com/404.html">
-  <meta property="og:title" content="This Page is Missing (404 error)">
-  <meta property="og:description" content="The page you are looking for has gone missing.">
+  <meta property="og:url" content="https://jacksoncattlemen.com/events/">
+  <meta property="og:title" content="Events">
+  <meta property="og:description" content="{{ page.title }}
+          {% if page.description %}{{ page.description }}{% endif %}
+        
+
+        {% for item in site.events %}
+          
+
+           ...">
   <meta property="og:image" content="https://jacksoncattlemen.com/images/default.jpg">
 
   <meta http-equiv="x-dns-prefetch-control" content="on">
@@ -74,7 +88,7 @@
 
     
 
-      <li class="menu-item">
+      <li class="menu-item active">
         <a href="/events/">Events</a>
 
         
@@ -102,25 +116,30 @@
       <div class="site-inner">
   <div class="wrap">
     <div class="content-sidebar-wrap">
-
       <main class="content">
-        <article class="page entry" itemscope itemtype="http://schema.org/CreativeWork">
 
-          <header class="entry-header">
-            <h1 class="entry-title" itemprop="headline">This Page is Missing (404 error)</h1>
-          </header>
+        <div class="archive-description">
+          <h1 class="archive-title">Events</h1>
+          
+        </div>
 
-          <div class="entry-content" itemprop="text">
-            <h1 class="editable">The page you are looking for has gone missing.</h1>
-<p class="editable">It's not your fault. You can probably find what you're looking for by heading back to the <a href="/">homepage</a>. Failing that you could use <a href="https://duckduckgo.com/?q=site%3Ahttps://jacksoncattlemen.com&t=hu&ia=web">DuckDuckGo</a> to search for it.</p>
+        
+          <article class="events entry" itemscope itemtype="http://schema.org/CreativeWork">
 
-          </div>
+            <div class="entry-content" itemprop="text">
+              <div class="events-featured-image">
+                <a href="/events/skyscrapers/" rel="bookmark"><img width="800" height="600" src="/images/demo-7-768x512.jpg" class="events-image" alt="" /></a>
+              </div>
+            </div>
 
-        </article>
+            <header class="entry-header">
+              <h1 class="entry-title" itemprop="headline"><a href="/events/skyscrapers/" rel="bookmark">Cattleman's Dinner</a></h1>
+            </header>
+
+          </article>
+        
+
       </main>
-
-      
-
     </div>
   </div>
 </div>

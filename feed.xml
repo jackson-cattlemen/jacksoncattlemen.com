@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://jacksoncattlemen.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jacksoncattlemen.com/" rel="alternate" type="text/html" /><updated>2018-07-29T17:35:42-05:00</updated><id>https://jacksoncattlemen.com/</id><title type="html">Jackson County Alabama Cattlemen’s Association</title><subtitle>Jackson County Alabama Cattlemen's Association News and Events</subtitle><entry><title type="html">Only Text (For Testing)</title><link href="https://jacksoncattlemen.com/post-twitter-embeds/" rel="alternate" type="text/html" title="Only Text (For Testing)" /><published>2010-09-10T00:00:00-05:00</published><updated>2010-09-10T00:00:00-05:00</updated><id>https://jacksoncattlemen.com/post-twitter-embeds</id><content type="html" xml:base="https://jacksoncattlemen.com/post-twitter-embeds/">&lt;p&gt;This is an example of a page, where you might tell your visitors the story behind your restaurant. How you got started, what sets you apart, why your customers love dining with you, etc.&lt;/p&gt;
+
+&lt;p&gt;The rest of this text is placeholder copy… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at diam leo. Maecenas non nisl massa. Nam quis nibh auctor magna molestie malesuada et vitae purus. Sed mattis neque quis orci imperdiet lobortis. Aenean porttitor pretium nibh vitae fermentum.&lt;/p&gt;
+
+&lt;p&gt;In adipiscing orci orci, sagittis fringilla eros. Duis nec enim nec ligula vulputate suscipit. Maecenas risus quam, rhoncus sed consequat a, volutpat id purus. Suspendisse ut dolor quis justo dapibus vulputate. Fusce dictum eleifend nulla ac venenatis. Sed vehicula augue nec neque egestas tristique. Sed ultricies dui at urna luctus tincidunt.&lt;/p&gt;
+
+&lt;p&gt;Etiam vel ante eu dui viverra dictum. Aenean nunc dui, facilisis vitae tincidunt id, placerat ut lectus. Sed non nisi eu ante tristique ullamcorper ac in sapien. Aliquam feugiat ipsum a ante hendrerit placerat. Sed egestas dignissim scelerisque. Fusce onsectetur imperdiet accumsan. Ut mollis posuere massa, nec semper leo tristique vitae.&lt;/p&gt;
+
+&lt;p&gt;Aenean eu libero diam, at blandit magna. Curabitur pellentesque erat id tortor tristique fermentum. Suspendisse a orci nec massa dapibus sagittis ac at magna. Praesent sed ultricies turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia viverra hendrerit. Ut sit amet laoreet nisi. Phasellus imperdiet suscipit interdum. Aenean semper, risus in dapibus tincidunt, purus sapien fringilla nisi, vel rhoncus neque dolor sed odio. Praesent pellentesque rutrum feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque adipiscing venenatis dolor. Aenean rutrum varius fermentum.&lt;/p&gt;</content><author><name></name></author><category term="contents" /><category term="embeds" /><category term="media" /><category term="twitter" /><summary type="html">This is an example of a page, where you might tell your visitors the story behind your restaurant. How you got started, what sets you apart, why your customers love dining with you, etc.</summary></entry><entry><title type="html">Post: Image (Caption)</title><link href="https://jacksoncattlemen.com/post-image-caption/" rel="alternate" type="text/html" title="Post: Image (Caption)" /><published>2010-08-07T00:00:00-05:00</published><updated>2010-08-07T00:00:00-05:00</updated><id>https://jacksoncattlemen.com/post-image-caption</id><content type="html" xml:base="https://jacksoncattlemen.com/post-image-caption/">&lt;figure&gt;
+  
+&lt;img src=&quot;https://jacksoncattlemen.com/images/unsplash-gallery-image-3.jpg&quot; alt=&quot;Foo&quot; /&gt;
+
+  &lt;figcaption&gt;Photo from Unsplash.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name></name></author><category term="image" /><category term="Post Formats" /><summary type="html"></summary></entry><entry><title type="html">Post: Image (Linked with Caption)</title><link href="https://jacksoncattlemen.com/post-image-linked-caption/" rel="alternate" type="text/html" title="Post: Image (Linked with Caption)" /><published>2010-08-06T00:00:00-05:00</published><updated>2010-08-06T00:00:00-05:00</updated><id>https://jacksoncattlemen.com/post-image-linked-caption</id><content type="html" xml:base="https://jacksoncattlemen.com/post-image-linked-caption/">&lt;figure&gt;
+  
+&lt;a href=&quot;https://flic.kr/p/8wzarA&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4134/4940462712_7c28420b27_b.jpg&quot; alt=&quot;Foo&quot; /&gt;&lt;/a&gt;
+
+  &lt;figcaption&gt;
+Stairs? Were we’re going we don’t need no stairs.
+&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name></name></author><category term="image" /><category term="Post Formats" /><summary type="html"></summary></entry><entry><title type="html">Post: Image (Standard)</title><link href="https://jacksoncattlemen.com/post-image-standard/" rel="alternate" type="text/html" title="Post: Image (Standard)" /><published>2010-08-05T00:00:00-05:00</published><updated>2010-08-05T00:00:00-05:00</updated><id>https://jacksoncattlemen.com/post-image-standard</id><content type="html" xml:base="https://jacksoncattlemen.com/post-image-standard/">&lt;p&gt;The preferred way of using images is placing them in the &lt;code class=&quot;highlighter-rouge&quot;&gt;/images/&lt;/code&gt; directory and referencing them with an absolute path. Prepending the filename with &lt;code class=&quot;highlighter-rouge&quot;&gt;{{ site.url }}{{ site.baseurl }}/images/&lt;/code&gt; will make sure your images display properly in feeds and such.&lt;/p&gt;
+
+&lt;p&gt;Standard image with no width modifier classes applied.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HTML:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ site.baseurl }}/images/filename.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;or Kramdown:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;{{&lt;/span&gt; site.url }}{{ site.baseurl }}/images/filename.jpg)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://jacksoncattlemen.com/images/unsplash-image-9.jpg&quot; alt=&quot;Unsplash image 9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Image that fills page content container by adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;.full&lt;/code&gt; class with:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HTML:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ site.baseurl }}/images/filename.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;full&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;or Kramdown:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;{{&lt;/span&gt; site.url }}{{ site.baseurl }}/images/filename.jpg)
+{: .full}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;full&quot;&gt;&lt;img src=&quot;https://jacksoncattlemen.com/images/unsplash-image-10.jpg&quot; alt=&quot;Unsplash image 10&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="image" /><category term="Post Formats" /><summary type="html">The preferred way of using images is placing them in the /images/ directory and referencing them with an absolute path. Prepending the filename with {{ site.url }}{{ site.baseurl }}/images/ will make sure your images display properly in feeds and such.</summary></entry><entry><title type="html">Post: Image (with Link)</title><link href="https://jacksoncattlemen.com/post-image-linked/" rel="alternate" type="text/html" title="Post: Image (with Link)" /><published>2010-08-05T00:00:00-05:00</published><updated>2010-08-05T00:00:00-05:00</updated><id>https://jacksoncattlemen.com/post-image-linked</id><content type="html" xml:base="https://jacksoncattlemen.com/post-image-linked/">&lt;p&gt;&lt;a href=&quot;https://flic.kr/p/8ww3fZ&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4073/4939853213_33ffc0290b_b.jpg&quot; alt=&quot;foo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="image" /><category term="Post Formats" /><summary type="html"></summary></entry><entry><title type="html">Post: Video (YouTube)</title><link href="https://jacksoncattlemen.com/post-video-youtube/" rel="alternate" type="text/html" title="Post: Video (YouTube)" /><published>2010-06-02T00:00:00-05:00</published><updated>2010-06-02T00:00:00-05:00</updated><id>https://jacksoncattlemen.com/post-video-youtube</id><content type="html" xml:base="https://jacksoncattlemen.com/post-video-youtube/">&lt;p&gt;YouTube video embed below.&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="Post Formats" /><summary type="html">YouTube video embed below.</summary></entry><entry><title type="html">Post: Link</title><link href="https://jacksoncattlemen.com/post-link/" rel="alternate" type="text/html" title="Post: Link" /><published>2010-03-07T00:00:00-06:00</published><updated>2010-03-07T00:00:00-06:00</updated><id>https://jacksoncattlemen.com/post-link</id><content type="html" xml:base="https://jacksoncattlemen.com/post-link/">&lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And this is how a quote looks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Some &lt;a href=&quot;#&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;</content><author><name></name></author><category term="link" /><category term="Post Formats" /><summary type="html">This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.</summary></entry><entry><title type="html">Post: Quote</title><link href="https://jacksoncattlemen.com/post-quote/" rel="alternate" type="text/html" title="Post: Quote" /><published>2010-02-05T00:00:00-06:00</published><updated>2010-02-05T00:00:00-06:00</updated><id>https://jacksoncattlemen.com/post-quote</id><content type="html" xml:base="https://jacksoncattlemen.com/post-quote/">&lt;blockquote&gt;
+  &lt;p&gt;Only one thing is impossible for God: To find any sense in any copyright law on the planet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;cite&gt;&lt;a href=&quot;http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html&quot;&gt;Mark Twain&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="Post Formats" /><category term="quote" /><summary type="html">Only one thing is impossible for God: To find any sense in any copyright law on the planet.</summary></entry><entry><title type="html">Post: Notice</title><link href="https://jacksoncattlemen.com/post-notice/" rel="alternate" type="text/html" title="Post: Notice" /><published>2010-02-05T00:00:00-06:00</published><updated>2010-02-05T00:00:00-06:00</updated><id>https://jacksoncattlemen.com/post-notice</id><content type="html" xml:base="https://jacksoncattlemen.com/post-notice/">&lt;p&gt;A notice displays information that explains nearby content. Often used to call attention to a particular detail.&lt;/p&gt;
+
+&lt;p&gt;When using Kramdown &lt;code class=&quot;highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; can be added after a sentence to assign the &lt;code class=&quot;highlighter-rouge&quot;&gt;.notice&lt;/code&gt; to the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Changes in Service:&lt;/strong&gt; We just updated our &lt;a href=&quot;#&quot;&gt;privacy policy&lt;/a&gt; here to better service our customers. We recommend reviewing the changes.&lt;/p&gt;
+
+&lt;p class=&quot;notice--primary&quot;&gt;&lt;strong&gt;Primary Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. &lt;a href=&quot;#&quot;&gt;Praesent libero&lt;/a&gt;. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Info Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot;&gt;consectetur adipiscing elit&lt;/a&gt;. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+
+&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Warning Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&quot;#&quot;&gt;Integer nec odio&lt;/a&gt;. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+
+&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Danger Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot;&gt;consectetur adipiscing&lt;/a&gt; elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+
+&lt;p class=&quot;notice--success&quot;&gt;&lt;strong&gt;Success Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at &lt;a href=&quot;#&quot;&gt;nibh elementum&lt;/a&gt; imperdiet.&lt;/p&gt;
+
+&lt;p&gt;Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with &lt;code class=&quot;highlighter-rouge&quot;&gt;markdownify&lt;/code&gt; is a good way to go.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% capture notice-2 %}
+#### New Site Features
+
+* You can now have cover images on blog pages
+* Drafts will now auto-save while writing
+{% endcapture %}
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;notice&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ notice-2 | markdownify }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;notice&quot;&gt;
+  
+&lt;h4 id=&quot;new-site-features&quot;&gt;New Site Features&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You can now have cover images on blog pages&lt;/li&gt;
+  &lt;li&gt;Drafts will now auto-save while writing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Or you could skip the capture and stick with straight HTML.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;notice&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Message&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A basic message.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;notice&quot;&gt;
+  &lt;h4&gt;Message&lt;/h4&gt;
+  &lt;p&gt;A basic message.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Post Formats" /><category term="notice" /><summary type="html">A notice displays information that explains nearby content. Often used to call attention to a particular detail.</summary></entry><entry><title type="html">Post: Chat</title><link href="https://jacksoncattlemen.com/post-chat/" rel="alternate" type="text/html" title="Post: Chat" /><published>2010-01-08T00:00:00-06:00</published><updated>2010-01-08T00:00:00-06:00</updated><id>https://jacksoncattlemen.com/post-chat</id><content type="html" xml:base="https://jacksoncattlemen.com/post-chat/">&lt;p&gt;Abbott: Strange as it may seem, they give ball players nowadays very peculiar names.&lt;/p&gt;
+
+&lt;p&gt;Costello: Funny names?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Nicknames, nicknames. Now, on the St. Louis team we have Who’s on first, What’s on second, I Don’t Know is on third–&lt;/p&gt;
+
+&lt;p&gt;Costello: That’s what I want to find out. I want you to tell me the names of the fellows on the St. Louis team.&lt;/p&gt;
+
+&lt;p&gt;Abbott: I’m telling you. Who’s on first, What’s on second, I Don’t Know is on third–&lt;/p&gt;
+
+&lt;p&gt;Costello: You know the fellows’ names?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Yes.&lt;/p&gt;
+
+&lt;p&gt;Costello: Well, then who’s playing first?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Yes.&lt;/p&gt;
+
+&lt;p&gt;Costello: I mean the fellow’s name on first base.&lt;/p&gt;
+
+&lt;p&gt;Abbott: Who.&lt;/p&gt;
+
+&lt;p&gt;Costello: The fellow playin’ first base.&lt;/p&gt;
+
+&lt;p&gt;Abbott: Who.&lt;/p&gt;
+
+&lt;p&gt;Costello: The guy on first base.&lt;/p&gt;
+
+&lt;p&gt;Abbott: Who is on first.&lt;/p&gt;
+
+&lt;p&gt;Costello: Well, what are you askin’ me for?&lt;/p&gt;
+
+&lt;p&gt;Abbott: I’m not asking you–I’m telling you. Who is on first.&lt;/p&gt;
+
+&lt;p&gt;Costello: I’m asking you–who’s on first?&lt;/p&gt;
+
+&lt;p&gt;Abbott: That’s the man’s name.&lt;/p&gt;
+
+&lt;p&gt;Costello: That’s who’s name?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Yes.&lt;/p&gt;
+
+&lt;p&gt;Costello: When you pay off the first baseman every month, who gets the money?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Every dollar of it. And why not, the man’s entitled to it.&lt;/p&gt;
+
+&lt;p&gt;Costello: Who is?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Yes.&lt;/p&gt;
+
+&lt;p&gt;Costello: So who gets it?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Why shouldn’t he? Sometimes his wife comes down and collects it.&lt;/p&gt;
+
+&lt;p&gt;Costello: Who’s wife?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Yes. After all, the man earns it.&lt;/p&gt;
+
+&lt;p&gt;Costello: Who does?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Absolutely.&lt;/p&gt;
+
+&lt;p&gt;Costello: Well, all I’m trying to find out is what’s the guy’s name on first base?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Oh, no, no. What is on second base.&lt;/p&gt;
+
+&lt;p&gt;Costello: I’m not asking you who’s on second.&lt;/p&gt;
+
+&lt;p&gt;Abbott: Who’s on first!&lt;/p&gt;
+
+&lt;p&gt;Costello: St. Louis has a good outfield?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Oh, absolutely.&lt;/p&gt;
+
+&lt;p&gt;Costello: The left fielder’s name?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Why.&lt;/p&gt;
+
+&lt;p&gt;Costello: I don’t know, I just thought I’d ask.&lt;/p&gt;
+
+&lt;p&gt;Abbott: Well, I just thought I’d tell you.&lt;/p&gt;
+
+&lt;p&gt;Costello: Then tell me who’s playing left field?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Who’s playing first.&lt;/p&gt;
+
+&lt;p&gt;Costello: Stay out of the infield! The left fielder’s name?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Why.&lt;/p&gt;
+
+&lt;p&gt;Costello: Because.&lt;/p&gt;
+
+&lt;p&gt;Abbott: Oh, he’s center field.&lt;/p&gt;
+
+&lt;p&gt;Costello: Wait a minute. You got a pitcher on this team?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Wouldn’t this be a fine team without a pitcher?&lt;/p&gt;
+
+&lt;p&gt;Costello: Tell me the pitcher’s name.&lt;/p&gt;
+
+&lt;p&gt;Abbott: Tomorrow.&lt;/p&gt;
+
+&lt;p&gt;Costello: Now, when the guy at bat bunts the ball–me being a good catcher–I want to throw the guy out at first base, so I pick up the ball and throw it to who?&lt;/p&gt;
+
+&lt;p&gt;Abbott: Now, that’s he first thing you’ve said right.&lt;/p&gt;
+
+&lt;p&gt;Costello: I DON’T EVEN KNOW WHAT I’M TALKING ABOUT!&lt;/p&gt;
+
+&lt;p&gt;Abbott: Don’t get excited. Take it easy.&lt;/p&gt;
+
+&lt;p&gt;Costello: I throw the ball to first base, whoever it is grabs the ball, so the guy runs to second. Who picks up the ball and throws it to what. What throws it to I don’t know. I don’t know throws it back to tomorrow–a triple play.&lt;/p&gt;
+
+&lt;p&gt;Abbott: Yeah, it could be.&lt;/p&gt;
+
+&lt;p&gt;Costello: Another guy gets up and it’s a long ball to center.&lt;/p&gt;
+
+&lt;p&gt;Abbott: Because.&lt;/p&gt;
+
+&lt;p&gt;Costello: Why? I don’t know. And I don’t care.&lt;/p&gt;
+
+&lt;p&gt;Abbott: What was that?&lt;/p&gt;
+
+&lt;p&gt;Costello: I said, I DON’T CARE!&lt;/p&gt;
+
+&lt;p&gt;Abbott: Oh, that’s our shortstop!&lt;/p&gt;</content><author><name></name></author><category term="chat" /><category term="Post Formats" /><summary type="html">Abbott: Strange as it may seem, they give ball players nowadays very peculiar names.</summary></entry></feed>

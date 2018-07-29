@@ -5,18 +5,26 @@
 
   <meta charset="UTF-8">
 
-  <title>This Page is Missing (404 error)</title>
+  <title>Edge Case: Nested and Mixed Lists</title>
 
-  <meta name="description" content="The page you are looking for has gone missing.">
+  <meta name="description" content="Nested and mixed lists are an interesting beast. It’s a corner case to make sure that
+
+
+  Lists within lists do not break the ordered list numbering order
+  ...">
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="canonical" href="https://jacksoncattlemen.com/404.html">
+  <link rel="canonical" href="https://jacksoncattlemen.com/edge-case-nested-and-mixed-lists/">
   <link rel="alternate" type="application/rss+xml" title="Jackson County Alabama Cattlemen's Association" href="https://jacksoncattlemen.com/feed.xml">
 
-  <meta property="og:url" content="https://jacksoncattlemen.com/404.html">
-  <meta property="og:title" content="This Page is Missing (404 error)">
-  <meta property="og:description" content="The page you are looking for has gone missing.">
+  <meta property="og:url" content="https://jacksoncattlemen.com/edge-case-nested-and-mixed-lists/">
+  <meta property="og:title" content="Edge Case: Nested and Mixed Lists">
+  <meta property="og:description" content="Nested and mixed lists are an interesting beast. It’s a corner case to make sure that
+
+
+  Lists within lists do not break the ordered list numbering order
+  ...">
   <meta property="og:image" content="https://jacksoncattlemen.com/images/default.jpg">
 
   <meta http-equiv="x-dns-prefetch-control" content="on">
@@ -104,17 +112,116 @@
     <div class="content-sidebar-wrap">
 
       <main class="content">
-        <article class="page entry" itemscope itemtype="http://schema.org/CreativeWork">
+        <article class="post entry" itemscope itemtype="http://schema.org/CreativeWork">
 
           <header class="entry-header">
-            <h1 class="entry-title" itemprop="headline">This Page is Missing (404 error)</h1>
+            <h1 class="entry-title" itemprop="headline">Edge Case: Nested and Mixed Lists</h1>
+            <p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2009-05-15T00:00:00-05:00">May 15, 2009</time></p>
           </header>
 
           <div class="entry-content" itemprop="text">
-            <h1 class="editable">The page you are looking for has gone missing.</h1>
-<p class="editable">It's not your fault. You can probably find what you're looking for by heading back to the <a href="/">homepage</a>. Failing that you could use <a href="https://duckduckgo.com/?q=site%3Ahttps://jacksoncattlemen.com&t=hu&ia=web">DuckDuckGo</a> to search for it.</p>
+            <p>Nested and mixed lists are an interesting beast. It’s a corner case to make sure that</p>
+
+<ul>
+  <li>Lists within lists do not break the ordered list numbering order</li>
+  <li>Your list styles go deep enough.</li>
+</ul>
+
+<h3 id="ordered--unordered--ordered">Ordered – Unordered – Ordered</h3>
+
+<ol>
+  <li>ordered item</li>
+  <li>ordered item
+    <ul>
+      <li><strong>unordered</strong></li>
+      <li><strong>unordered</strong></li>
+    </ul>
+    <ol>
+      <li>ordered item</li>
+      <li>ordered item</li>
+    </ol>
+  </li>
+  <li>ordered item</li>
+  <li>ordered item</li>
+</ol>
+
+<h3 id="ordered--unordered--unordered">Ordered – Unordered – Unordered</h3>
+
+<ol>
+  <li>ordered item</li>
+  <li>ordered item
+    <ul>
+      <li><strong>unordered</strong></li>
+      <li><strong>unordered</strong></li>
+    </ul>
+    <ul>
+      <li>unordered item</li>
+      <li>unordered item</li>
+    </ul>
+  </li>
+  <li>ordered item</li>
+  <li>ordered item</li>
+</ol>
+
+<h3 id="unordered--ordered--unordered">Unordered – Ordered – Unordered</h3>
+
+<ul>
+  <li>unordered item</li>
+  <li>unordered item
+    <ol>
+      <li>ordered</li>
+      <li>ordered
+        <ul>
+          <li>unordered item</li>
+          <li>unordered item</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>unordered item</li>
+  <li>unordered item</li>
+</ul>
+
+<h3 id="unordered--unordered--ordered">Unordered – Unordered – Ordered</h3>
+
+<ul>
+  <li>unordered item</li>
+  <li>unordered item
+    <ul>
+      <li>unordered</li>
+      <li>unordered
+        <ol>
+          <li><strong>ordered item</strong></li>
+          <li><strong>ordered item</strong></li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>unordered item</li>
+  <li>unordered item</li>
+</ul>
 
           </div>
+
+          <footer class="entry-footer">
+            <p class="entry-meta">
+  <span class="entry-categories">Filed Under:
+    
+      <a href="/category/en/" rel="category">en</a>, 
+    
+      <a href="/category/edge-case/" rel="category">edge case</a>
+    
+  </span>
+
+
+
+
+  <span class="entry-tags">Tagged With:
+    
+  </span>
+
+</p>
+          </footer>
 
         </article>
       </main>
