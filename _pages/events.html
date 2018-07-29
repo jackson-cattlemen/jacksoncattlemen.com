@@ -1,0 +1,40 @@
+---
+layout: default
+title: Events
+meta_title:
+description:
+meta_description:
+facebook_image_path:
+permalink: /events/
+---
+
+<div class="site-inner">
+  <div class="wrap">
+    <div class="content-sidebar-wrap">
+      <main class="content">
+
+        <div class="archive-description">
+          <h1 class="archive-title">{{ page.title }}</h1>
+          {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+        </div>
+
+        {% for item in site.events %}
+          <article class="events entry" itemscope itemtype="http://schema.org/CreativeWork">
+
+            <div class="entry-content" itemprop="text">
+              <div class="events-featured-image">
+                <a href="{{ item.url }}" rel="bookmark"><img width="800" height="600" src="{{ item.image_path }}" class="events-image" alt="{{ item.description }}" /></a>
+              </div>
+            </div>
+
+            <header class="entry-header">
+              <h1 class="entry-title" itemprop="headline"><a href="{{ item.url }}" rel="bookmark">{{ item.title }}</a></h1>
+            </header>
+
+          </article>
+        {% endfor %}
+
+      </main>
+    </div>
+  </div>
+</div>

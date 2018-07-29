@@ -1,0 +1,17 @@
+.leadership {
+  flex-wrap: nowrap;
+  margin-bottom: 2rem;
+}
+
+.leadership-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+
+  h2,
+  p {
+    margin-bottom: 0;
+  }
+
+}

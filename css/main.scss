@@ -1,0 +1,34 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import 'variables';
+@import 'normalize';
+@import 'reset';
+@import 'fonts';
+@import 'fontawesome';
+@import 'base';
+@import 'buttons';
+@import 'forms';
+@import 'tables';
+@import 'structure';
+@import 'grid';
+@import 'header';
+@import 'headings';
+@import 'navigation';
+@import 'article';
+@import 'images';
+@import 'archive';
+@import 'code';
+@import 'pricing';
+@import 'pagination';
+@import 'sidebar';
+@import 'subscribe';
+@import 'footer-widgets';
+@import 'footer';
+
+@import 'pages/404';
+@import 'pages/home';
+@import 'pages/leadership';
+@import 'pages/events';
