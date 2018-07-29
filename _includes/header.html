@@ -3,7 +3,7 @@
 
     {% unless page.url == '/' %}
       <div class="title-area">
-        <h1 class="site-title" itemprop="headline"><a href="/">{{ site.title }}</a></h1>
+        <h1 class="site-title" itemprop="headline"><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       </div>
     {% endunless %}
 
