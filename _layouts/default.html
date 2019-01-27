@@ -1,18 +1,80 @@
 <!doctype html>
 <html lang="en">
 
-  {% include head.html %}
+  <head>
+
+    <meta charset="UTF-8">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip | truncate: 160 }}{% endif %}">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% elsif page.headline %}{{ page.headline }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip | truncate: 160 }}{% endif %}">
+    <meta property="og:image" content="{% if page.facebook_image_path %}{{ page.facebook_image_path }}{% elsif page.featured_image_path %}{{ page.featured_image_path }}{% else %}{{ site.url }}/images/default.jpg{% endif %}">
+
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Martel:200,700,900|Open+Sans:400,700|Roboto+Condensed:700">
+    <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">
+
+  </head>
 
   <body {% if page.url == '/' %}class="home full-width-content" {% elsif page.url contains '/blog/' or page.layout == 'archive' %}class="archive full-width-content" {% elsif page.url == '/portfolio/' %}class="archive portfolio-archive full-width-content" {% elsif page.sidebar_option != 'sidebar' %}class="full-width-content" {% endif %}itemscope itemtype="http://schema.org/WebPage">
 
     <div class="site-container">
 
-      {% include header.html %}
+      <header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="wrap">
+
+          {% unless page.url == '/' %}
+            <div class="title-area">
+              <h1 class="site-title" itemprop="headline"><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+            </div>
+
+            <nav class="nav-primary" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+              <ul class="jekyll-nav-menu">
+
+                {% for link in site.data.navigation %}
+
+                  <li class="menu-item{% if link.url == page.url %} active{% endif %}">
+                    <a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
+
+                    {% if link.sub_menu %}
+                    <ul class="sub-menu">
+
+                      {% for sub-link in link.sub_menu %}
+                        <li class="menu-item"><a href="{{ sub-link.url | absolute_url }}">{{ sub-link.title }}</a></li>
+                      {% endfor %}
+
+                    </ul>
+                    {% endif %}
+
+                  </li>
+
+                {% endfor %}
+
+              </ul>
+            </nav>
+          {% endunless %}
+
+        </div>
+      </header>
 
       {{ content }}
 
-      {% include footer-widgets.html %}
-      {% include footer.html %}
+      <footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+        <div class="wrap">
+          <p>{{ site.title }} &copy; {{ site.time | date: '%Y' }} &middot; Built by <a href="http://bradonomics.com/">Brad West</a></p>
+        </div>
+      </footer>
 
     </div>
 

@@ -1,13 +1,13 @@
-- title: Home
+- title: ← Home
   url: /
-- title: About
-  url: /about/
-  sub_menu:
-    - title: Leadership
-      url: /leadership/
-    - title: Typography Test
-      url: /typography/
-- title: Events
-  url: /events/
-- title: News
-  url: /news/
+# - title: About
+#   url: /about/
+#   sub_menu:
+#     - title: Leadership
+#       url: /leadership/
+#     - title: Typography Test
+#       url: /typography/
+# - title: Events
+#   url: /events/
+# - title: News
+#   url: /news/
